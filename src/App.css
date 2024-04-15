@@ -1,8 +1,35 @@
 .App {
-  padding: 30px;
-  display: flex;
+	padding: 30px;
+	display: flex;
 }
 
 .App > div {
-  margin-right: 50px;
+	margin-right: 50px;
+}
+
+.task {
+	font-weight: 700;
+}
+
+.task-done {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+.filter-btn-active {
+	background-color: #ce6868;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 3px;
+}
+
+.task-input-error {
+	border: 3px solid red;
+	outline: none;
+	border-radius: 5px;
+}
+
+.task-input-error-message {
+	font-weight: 700;
+	color: red;
 }
